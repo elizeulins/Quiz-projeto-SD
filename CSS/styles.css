@@ -1,0 +1,166 @@
+p {
+    color: aqua;
+}
+
+body {
+    background: #643d87 url(../imagens/fundo2.jpg) repeat-x top center;
+}
+
+#container {
+    width: 800px;
+    height: 440px;
+    background: url(../imagens/fundo_frente.jpg) no-repeat bottom center;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 90px;
+    text-align: center;
+    border: 7px solid yellow;
+}
+
+#container img {
+    width: 230px;
+    height: 200px;
+    margin-top: -90px;
+    margin-bottom: 90px;
+}
+
+/* tELA NOME JOGADOR */
+
+input.submit {
+    background-color: yellow;
+    font-size: 2em;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 70px;
+    width: fit-content;
+}
+
+#inicio-quiz button {
+    background: yellow;
+    padding: 15px;
+    cursor:pointer;
+    border: none;
+    font-size: 2em;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+#formInputJogador {
+    height: 40px;
+    width: 40%;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding-left: 40px;
+    border: none;
+    border-radius: 12px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+#formInputJogador:focus {
+    border: 3px solid yellow;
+    outline: none;
+}
+
+input.name {
+    background-image: url(../imagens/icone-usuario.png);
+}
+
+#comecar-quiz button{
+    background: yellow;
+    float: right;
+    margin-top: 118px;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    font-size: 1.5em;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+/* tELA NOME JOGADOR */
+
+/* INICIO PERGUNTAS */
+
+#area-pergunta {
+    /* border: 3px solid red; */
+    margin-top: -150px;
+}
+
+#imgquiz {
+    width: 150px;
+    height: 70px;
+    margin-top: -90px;
+    margin-bottom: 90px;
+    margin-left: -750px;
+}
+
+h1 {
+    color: yellow;
+}
+
+h2, h3{
+    color: white;
+}
+
+h3 {
+    text-align: left;
+    padding-left: 20px;
+}
+
+#form_pergunta {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+#proxima-pergunta button {
+    background: yellow;
+    float: right;
+    margin-top: -8px;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    font-size: 1.5em;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+#fim-pergunta button {
+    background: yellow;
+    margin-top: -8px;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    font-size: 1.5em;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+/* FIM PERGUNTAS */
+
+/* TELA RESULTADO */
+
+#resultado {
+    border: 3px solid red;
+    width: fit-content;
+    
+}
+
+#recomecar button {
+    background: yellow;
+    margin-top: 185px;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    font-size: 1.5em;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+/* TELA RESULTADO */
